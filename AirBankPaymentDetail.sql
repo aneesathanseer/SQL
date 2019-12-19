@@ -1,10 +1,3 @@
-SET ANSI_NULLS ON
-SET QUOTED_IDENTIFIER ON
--- =============================================
--- Author:	Geethika Joy
--- Create date: <Create Date,,>
--- Description:	<Description,,>
--- =============================================
 CREATE PROCEDURE [dbo].[AirBankPaymentDetail]
 	-- Add the parameters for the stored procedure here
 	@ReceiptID BIGINT
@@ -14,7 +7,7 @@ BEGIN
 	-- interfering with SELECT statements.dffdfdfs
 	SET NOCOUNT ON;
 
-    -- Insert statements for procedure here test
+    -- Insert statements for procedure here test test2
 	SELECT AirBnkPaymnt.ReceiptID
 		,AirBnkPaymntDtl.AdjAmt
 		,AirBnkPaymntDtl.TDS
